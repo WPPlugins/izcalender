@@ -1,0 +1,30 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<script type="text/javascript" src="jquery.js"></script>
+
+<script type="text/javascript" src="jquery.wysiwyg.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery.wysiwyg.css">
+<title>jQuery Simple WYSIWYG by de77</title>
+</head>
+<body>
+
+
+<div id="editor">Example text</div>
+
+<p>
+Not editable
+</p>
+
+<div id="editor2">Another Text</div>
+
+<input type="button" onClick="alert($('#editor').html())" value="getHTML">
+<input type="button" onClick="$('#editor2').de77_wysiwyg(false);" value="remove">
+
+<script type="text/javascript">
+	$('#editor').de77_wysiwyg();
+	$('#editor2').de77_wysiwyg();
+</script>
+</body>
+</html>

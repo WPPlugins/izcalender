@@ -1,0 +1,24 @@
+.de77_toolbar
+{
+	border-bottom: 1px solid #CCC;
+	background-color: #e7e7e7;
+	width: 540px;
+	padding: 5px;
+	background:-moz-linear-gradient(center bottom ,#e7e7e7 , #CCC) repeat scroll 0 0 transparent;
+}
+.de77_toolbar *
+{	
+	vertical-align: middle;
+}
+.de77_editor
+{
+	padding: 7px;
+	background-color:#FFF;
+}
+.de77_wysiwyg
+{
+	border: 1px solid #CCC;
+	width: 550px;
+	margin-bottom:20px;	
+	-moz-border-radius:3px;
+}
